@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qlik Automation Launcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Qlik Automation Launcher</h1>
+        
+        <form id="automationForm">
+            <div class="form-group">
+                <label for="site">Site</label>
+                <input type="text" id="site" name="site" placeholder="e.g., yourtenant.eu" required>
+            </div>
+
+            <div class="form-group">
+                <label for="auto">Auto ID</label>
+                <input type="text" id="auto" name="auto" placeholder="Automation UUID" required>
+            </div>
+
+            <div class="form-group">
+                <label for="token">Token</label>
+                <input type="password" id="token" name="token" placeholder="X-Execution-Token" required>
+            </div>
+
+            <div class="form-group">
+                <label for="token">Extras</label>
+                <input type="text" id="ex" name="ex" placeholder="Extra parameters required for execution" required>
+            </div>
+			
+            <button type="submit" id="btnCall">Call Automation</button>
+        </form>
+
+        <div id="outputContainer">
+            <h3>Result:</h3>
+            <div id="spOutput" class="output-box">Waiting for execution...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
