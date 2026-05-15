@@ -14,8 +14,11 @@ hosted within your own network, for extra security.
 The proxy receives the following parameters:
 
 site:    The first part of the Sense tenant, e.g. your-site.uk
+
 auto:    The GUID of your Automation - get this from the URL when you look at your automation
+
 token:   The Execution Token found in the start block of your automation
+
 ex:      Any extra parameters with URL encoding (i.e. = is %3d)
 
 For example:
