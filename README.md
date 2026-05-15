@@ -19,7 +19,7 @@ token:   The Execution Token found in the start block of your automation
 ex:      Any extra parameters with URL encoding (i.e. = is %3d)
 
 For example:
-https://steve-qi.github.io/qlik-auto/?site=your-site.uk&auto=xxxxxxxxxx&token=xxxxxxxxxx&ex=app&3dxxxxxxxxxx
+https://steve-qi.github.io/qlik-auto/?site=your-site.uk&auto=xxx&token=xxx&ex=app&3dxxx
 
 When called the app will send the parameters on to the nominated automation and then show the return values
 with colour coding for whether the call was successful.
@@ -28,4 +28,5 @@ Further details around why this app exists can be found on this blog post:
 https://www.quickintelligence.co.uk/qlik-automation-webhooks/
 
 Steve Dark
+
 Quick Intelligence
