@@ -55,3 +55,25 @@ button:hover { background-color: #007399; }
 
 .error { color: #a94442; background: #f2dede; border: 1px solid #ebccd1; }
 .success { color: #3c763d; background: #dff0d8; border: 1px solid #d6e9c6; }
+
+.source-info {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-size: 0.65rem; /* Small font size */
+    color: #777;
+    line-height: 1.4;
+}
+
+.source-info a {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+.source-info a:hover {
+    text-decoration: underline;
+}
+
+.source-info p {
+    margin: 4px 0;
+}
